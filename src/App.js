@@ -1,5 +1,6 @@
 
 import React, {Component} from "react";
+import fruta from './imagem/uvaitalia.png';
 
 export default class Coisa extends Component{
 state = {
@@ -19,6 +20,7 @@ state = {
       <li>{this.state.musicas[1]}</li>
       <li>{this.state.musicas[2]}</li>
     </ul>
+    <img src={fruta}/>
     </div>
   )
 }
